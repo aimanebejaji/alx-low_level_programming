@@ -1,29 +1,16 @@
-#include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
-
+#include<stdio.h>
 /**
- * main - Determine if a numbezr is positive, negative or zero
- *
- * Return: Always 0 (Success)
- */
+ * * main - Entry point
+ * *
+ * * Return: Always 0 (Success)
+ * */
 int main(void)
 {
-	int n;
+		printf("Size of a char: %d byte(s)\n", sizeof(char));
+			printf("Size of an int: %d byte(s)\n", sizeof(int));
+				printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+					printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
+						printf("Size of a float: %d byte(s)\n", sizeof(float));
+							return (0);
+}
 
-	strand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-	{
-		printf("%d is positive\n", n);
-	}
-	else if (n == 0)
-	{
-		printf("%d is zero\n");
-	}
-	else
-	{
-		printf("%d is neggative\n");
-	}
-	return (0);
-}	
